@@ -1,0 +1,40 @@
+#socialIcons2 {
+  background: #36454f;
+  padding-bottom: 3rem !important; }
+  #socialIcons2 h2 {
+    color: #fff; }
+  #socialIcons2 ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around; }
+    #socialIcons2 ul li {
+      list-style-type: none;
+      display: inline-block;
+      margin: 0 5px; }
+      #socialIcons2 ul li:hover a:last-child i {
+        transform: translateY(-78px); }
+      #socialIcons2 ul li:hover a i:first-child {
+        transform: translateY(-78px); }
+      #socialIcons2 ul li a {
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        text-decoration: none;
+        color: #36454f;
+        transition: .5s;
+        display: flex;
+        flex-direction: column;
+        line-height: 30px;
+        background: #f1f1f1;
+        padding: 1.5rem; }
+        #socialIcons2 ul li a:last-child {
+          background: #36454f; }
+        #socialIcons2 ul li a i {
+          font-size: 1.5rem;
+          display: block;
+          width: 100%;
+          transition: .5s;
+          color: #36454f; }
+
+/*# sourceMappingURL=social2.css.map */

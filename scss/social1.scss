@@ -1,0 +1,94 @@
+#socialIcons1
+{
+	width:90%;
+	margin:3rem auto;
+	text-align:center;
+	background:#36454f;
+	font-family: "Montserrat";
+	padding: 3rem;
+
+	h2
+	{
+		color: #fff;
+		text-transform: uppercase;
+		font-size: 2rem;
+		margin-bottom: 4rem;
+	}
+
+	ul
+	{
+		display: flex;
+		justify-content: center;
+		list-style-type: none;
+		flex-wrap: wrap;
+		li
+		{
+			&:last-child a
+			{
+				border-right: 1px solid #536878;
+			}
+
+			&:nth-child(1) a:before
+			{
+				background: #3b5999;
+			}
+
+			&:nth-child(2) a:before
+			{
+				background: #55acee;
+			}
+
+			&:nth-child(3) a:before
+			{
+				background: #dd4b39;
+			}
+
+			&:nth-child(4) a:before
+			{
+				background: #0077B5;
+			}
+
+			&:nth-child(5) a:before
+			{
+				background: #e4405f;
+			}
+
+
+			a
+			{
+				padding: 2rem;
+				text-decoration: none;
+				color: #fff;
+				position: relative;
+				line-height: 80px;		
+				text-align:center;
+				font-size: 1.3rem;	
+				border:1px solid #536878;
+				border-right: none;
+				transition: .3s;
+				z-index:10;
+
+				&:before
+				{
+					content:"";
+					position: absolute;
+					left:0;
+					top:0;
+					width: 100%;
+					height:100%;
+					background: #f00;
+					overflow: hidden;
+					z-index:-1;
+					transform: scaleX(0);
+					transition: transform .3s ease-in-out;
+					transform-origin: left;
+				}
+
+				&:hover:before
+				{
+					transform: scaleX(1);
+				}
+			}
+		}
+	}
+}

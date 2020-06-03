@@ -1,0 +1,54 @@
+#socialIcons5 {
+  width: 90%;
+  margin: 3rem auto;
+  text-align: center;
+  background: #e5e6eb;
+  font-family: "Montserrat";
+  padding: 3rem;
+  /* /ul ENDS */ }
+  #socialIcons5 h2 {
+    color: #36454f;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 6rem; }
+  #socialIcons5 ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    /* /li ENDS */ }
+    #socialIcons5 ul li {
+      list-style-type: none;
+      transition: .5s;
+      border-radius: .5rem;
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); }
+      #socialIcons5 ul li:nth-child(1) {
+        background: #3b5999; }
+      #socialIcons5 ul li:nth-child(2) {
+        background: #55acee; }
+      #socialIcons5 ul li:nth-child(3) {
+        background: #dd4b39; }
+      #socialIcons5 ul li:nth-child(4) {
+        background: #0077B5; }
+      #socialIcons5 ul li:nth-child(5) {
+        background: #e4405f; }
+      #socialIcons5 ul li:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); }
+      #socialIcons5 ul li a {
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        text-align: center;
+        font-size: 2rem;
+        position: relative;
+        display: block;
+        transition: 1s ease-in-out;
+        color: #36454f;
+        z-index: 1; }
+        #socialIcons5 ul li a i {
+          color: #fff; }
+
+/* #socialIcons4 ENDS */
+
+/*# sourceMappingURL=social5.css.map */

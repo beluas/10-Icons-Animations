@@ -1,0 +1,63 @@
+#socialIcons8 {
+  width: 90%;
+  margin: 3rem auto;
+  text-align: center;
+  background: #e5e6eb;
+  font-family: "Montserrat";
+  padding: 3rem;
+  /* /ul ENDS */ }
+  #socialIcons8 h2 {
+    color: #36454f;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 6rem; }
+  #socialIcons8 ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    /* /li ENDS */ }
+    #socialIcons8 ul li {
+      list-style-type: none; }
+      #socialIcons8 ul li:nth-child(1) a:before {
+        background: #3b5999; }
+      #socialIcons8 ul li:nth-child(2) a:before {
+        background: #55acee; }
+      #socialIcons8 ul li:nth-child(3) a:before {
+        background: #dd4b39; }
+      #socialIcons8 ul li:nth-child(4) a:before {
+        background: #0077B5; }
+      #socialIcons8 ul li:nth-child(5) a:before {
+        background: #e4405f; }
+      #socialIcons8 ul li a {
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        text-align: center;
+        font-size: 2rem;
+        position: relative;
+        display: block;
+        color: #36454f;
+        overflow: hidden;
+        transition: .3s;
+        border: 1px solid #36454f;
+        transform: rotate(45deg); }
+        #socialIcons8 ul li a:before {
+          content: '';
+          position: absolute;
+          left: 0;
+          bottom: -100%;
+          height: 100%;
+          width: 100%;
+          transition: .3s ease-in-out; }
+        #socialIcons8 ul li a:hover:before {
+          bottom: 0; }
+        #socialIcons8 ul li a:hover i {
+          color: #fff; }
+        #socialIcons8 ul li a i {
+          transform: rotate(-45deg);
+          transition: color .3s ease-in-out; }
+
+/* #socialIcons8 ENDS */
+
+/*# sourceMappingURL=social8.css.map */

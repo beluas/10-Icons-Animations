@@ -1,0 +1,93 @@
+#socialIcons7 {
+  width: 90%;
+  margin: 3rem auto;
+  text-align: center;
+  background: #e5e6eb;
+  font-family: "Montserrat";
+  padding: 3rem;
+  /* /ul ENDS */ }
+  #socialIcons7 h2 {
+    color: #36454f;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 6rem; }
+  #socialIcons7 ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    /* /li ENDS */ }
+    #socialIcons7 ul li {
+      list-style-type: none;
+      transition: .5s; }
+      #socialIcons7 ul li:nth-child(1) a {
+        color: #3b5999; }
+        #socialIcons7 ul li:nth-child(1) a:before {
+          background: #3b5999; }
+      #socialIcons7 ul li:nth-child(2) a {
+        color: #55acee; }
+        #socialIcons7 ul li:nth-child(2) a:before {
+          background: #55acee; }
+      #socialIcons7 ul li:nth-child(3) a {
+        color: #dd4b39; }
+        #socialIcons7 ul li:nth-child(3) a:before {
+          background: #dd4b39; }
+      #socialIcons7 ul li:nth-child(4) a {
+        color: #0077B5; }
+        #socialIcons7 ul li:nth-child(4) a:before {
+          background: #0077B5; }
+      #socialIcons7 ul li:nth-child(5) a {
+        color: #e4405f; }
+        #socialIcons7 ul li:nth-child(5) a:before {
+          background: #e4405f; }
+      #socialIcons7 ul li a {
+        border-radius: .5rem;
+        width: 90px;
+        height: 90px;
+        line-height: 90px;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 2rem;
+        position: relative;
+        display: block;
+        transition: 1s ease-in-out;
+        color: #36454f;
+        box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        z-index: 10;
+        transition: .5s ease-in-out;
+        background: #fff; }
+        #socialIcons7 ul li a:before {
+          content: '';
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          right: -100%;
+          background: #ccc;
+          z-index: -1;
+          border-radius: 50%;
+          transform: scale(0);
+          transition: .3s ease-in-out; }
+        #socialIcons7 ul li a:after {
+          content: '';
+          width: 50%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: -100%;
+          z-index: -1;
+          transition: .5s ease-in-out;
+          background: rgba(255, 255, 255, 0.2); }
+        #socialIcons7 ul li a:hover:before {
+          transform: scale(0.9);
+          right: 0; }
+        #socialIcons7 ul li a:hover:after {
+          left: 0; }
+        #socialIcons7 ul li a:hover i {
+          color: #fff;
+          transition: .5s; }
+
+/* #socialIcons7 ENDS */
+
+/*# sourceMappingURL=social7.css.map */

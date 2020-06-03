@@ -1,0 +1,107 @@
+#socialIcons3
+{
+	width:90%;
+	margin:3rem auto;
+	text-align:center;
+	background:#36454f;
+	font-family: "Montserrat";
+	padding: 3rem;
+
+	h2
+	{
+		color: #fff;
+		text-transform: uppercase;
+		font-size: 2rem;
+		margin-bottom: 6rem;
+	}
+
+	ul
+	{
+		margin: 0;
+		padding: 0;
+		display: flex;
+		justify-content: space-around;
+
+		li
+		{
+			list-style-type: none;
+
+			&:nth-child(1) a:before
+			{
+				background: #3b5999;
+			}
+
+			&:nth-child(2) a:before
+			{
+				background: #55acee;
+			}
+
+			&:nth-child(3) a:before
+			{
+				background: #dd4b39;
+			}
+
+			&:nth-child(4) a:before
+			{
+				background: #0077B5;
+			}
+
+			&:nth-child(5) a:before
+			{
+				background: #e4405f;
+			}
+
+			a
+			{
+				text-align: center;
+				width:80px;			
+				height: 80px;	
+				line-height: 85px;
+				border-radius: 50%;
+				background: #f1f1f1;
+				display: block;
+				border: 3px solid #fff;
+				position: relative;
+				overflow: hidden;
+
+
+				&:hover:before
+				{
+					top:0;
+					color: #fff;
+				}
+
+				&:hover i
+				{
+					color: #fff;
+				}
+
+				i
+				{
+					color: #36454f;
+					transition: .5s;
+					font-size: 1.8rem;
+				}
+
+				&:hover i
+				{
+					transform:rotateY(360deg);
+				}
+
+				&:before
+				{
+					content:'';
+					position: absolute;
+					top: 100%;
+					left: 0;
+					width: 100%;
+					height: 100%;
+					background: #36454f;
+					border-radius: 50%;
+					transition: .5s;
+				}
+			}
+
+		} /* /li ENDS */
+	} /* /ul ENDS */
+} /* #socialIcons3 ENDS */
